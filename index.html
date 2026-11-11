@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bùi Thị Thanh Nga | Phó Phòng Kinh Doanh - MDRT Dai-ichi Life Việt Nam</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      scroll-behavior: smooth;
+      color: #0f172a;
+    }
+    /* Bảng màu chuẩn nhận diện thương hiệu mới Dai-ichi Life ("Cùng bạn, mở tương lai") */
+    :root {
+      --dl-navy: #001A70;
+      --dl-blue: #0047BB;
+      --dl-cyan: #00A3E0;
+      --dl-light: #EBF5FF;
+      --dl-red: #D71920;
+    }
+    .bg-dl-navy { background-color: #001A70; }
+    .bg-dl-blue { background-color: #0047BB; }
+    .bg-dl-cyan { background-color: #00A3E0; }
+    .bg-dl-red { background-color: #D71920; }
+    .text-dl-navy { color: #001A70; }
+    .text-dl-blue { color: #0047BB; }
+    .text-dl-cyan { color: #00A3E0; }
+    .text-dl-red { color: #D71920; }
+    .border-dl-blue { border-color: #0047BB; }
+    .border-dl-navy { border-color: #001A70; }
+
+    .hero-gradient {
+      background: linear-gradient(135deg, #001A70 0%, #0047BB 52%, #0093D5 100%);
+    }
+    .soft-blue-gradient {
+      background: linear-gradient(180deg, #EBF5FF 0%, #FFFFFF 100%);
+    }
+    .brand-ribbon {
+      background: linear-gradient(90deg, #0047BB 0%, #001A70 35%, #00A3E0 70%, #0047BB 100%);
+    }
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 25px -5px rgba(0, 71, 187, 0.14),
+                  0 8px 10px -6px rgba(0, 71, 187, 0.08);
+    }
+    .gallery-img {
+      transition: transform 0.4s ease;
+    }
+    .gallery-card:hover .gallery-img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ===================================================================== -->
+  <!-- TOP BAR CHUẨN WEBSITE DAIICHILIFE.COM.VN                              -->
+  <!-- ===================================================================== -->
+  <div class="bg-dl-navy text-white text-xs py-2.5 px-4 border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <span>
+          <i class="fa-solid fa-location-dot text-sky-400 mr-1"></i>
+          Văn phòng làm việc: <strong>GA Bình Thạnh - 172 Nguyễn Văn Đậu, P. Gia Định, TP.HCM</strong>
+        </span>
+        <span class="hidden xl:inline text-white/30">|</span>
+        <span class="hidden xl:inline">
+          <i class="fa-solid fa-id-badge text-sky-400 mr-1"></i>
+          MSTV: <strong>1167052</strong>
+        </span>
+      </div>
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-1 font-semibold">
+        <a href="tel:0988190454" class="hover:text-sky-300 transition">
+          <i class="fa-solid fa-phone-volume text-sky-400 mr-1"></i>0988.190.454
+        </a>
+        <span class="text-white/30">|</span>
+        <a href="https://zalo.me/0988190454" target="_blank" class="hover:text-sky-300 transition">
+          Zalo: 0988.190.454
+        </a>
+        <span class="text-white/30">|</span>
+        <a href="https://t.me/+84988190454" target="_blank" class="hover:text-sky-300 transition">
+          <i class="fa-brands fa-telegram text-sky-400 mr-1"></i>Tele: 0988.190.454
+        </a>
+        <span class="hidden md:inline text-white/30">|</span>
+        <a href="mailto:ngathanh0906@gmail.com" class="hidden md:inline hover:text-sky-300 transition">
+          <i class="fa-solid fa-envelope text-sky-400 mr-1"></i>ngathanh0906@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- THANH MENU ĐIỀU HƯỚNG CỐ ĐỊNH (STICKY HEADER)                         -->
+  <!-- ===================================================================== -->
+  <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-40 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo & Tên thương hiệu cá nhân -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <img data-candidates="logo.jpg|logo_2.jpg|1792677633929_8570473983500858962_8570473983500858962_bc446597e1c5aa56a40b47326cac0fff.jpg"
+             alt="Dai-ichi Life Việt Nam"
+             class="smart-img h-12 w-auto object-contain rounded-xl border border-slate-100 p-0.5 shadow-sm">
+        <div>
+          <div class="font-extrabold text-base md:text-lg text-dl-navy tracking-tight leading-none group-hover:text-dl-blue transition">
+            BÙI THỊ THANH NGA
+          </div>
+          <div class="text-[11px] md:text-xs font-bold text-dl-blue mt-1 flex items-center gap-1.5">
+            <span>Phó Phòng Kinh Doanh</span>
+            <span class="text-slate-300">•</span>
+            <span class="bg-amber-100 text-amber-800 px-1.5 py-0.2 rounded font-extrabold">MDRT</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Menu trên máy tính -->
+      <nav class="hidden lg:flex items-center space-x-6 text-sm font-bold text-slate-700">
+        <a href="#gioi-thieu-cong-ty" class="hover:text-dl-blue transition">Về Dai-ichi Life</a>
+        <a href="#ve-thanh-nga" class="hover:text-dl-blue transition">Hồ Sơ Chuyên Gia</a>
+        <a href="#san-pham" class="hover:text-dl-blue transition">Giải Pháp Bảo Hiểm</a>
+        <a href="#bang-chung-chi-tra" class="text-dl-red hover:opacity-80 transition flex items-center gap-1">
+          <i class="fa-solid fa-bolt"></i>Bằng Chứng Chi Trả
+        </a>
+        <a href="#vinh-danh-su-kien" class="hover:text-dl-blue transition">Vinh Danh & Sự Kiện</a>
+        <a href="#form-tu-van-google-doc" class="hover:text-dl-blue transition">Form Tư Vấn</a>
+      </nav>
+
+      <!-- Nút hành động nhanh -->
+      <div class="flex items-center space-x-2">
+        <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+           class="hidden sm:flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-dl-blue font-bold text-xs px-3.5 py-2.5 rounded-full transition border border-blue-200">
+          <i class="fa-brands fa-facebook-messenger text-sm"></i> Messenger
+        </a>
+        <a href="#form-tu-van-google-doc"
+           class="bg-dl-blue hover:bg-dl-navy text-white font-bold text-xs px-4 py-2.5 rounded-full shadow-md transition flex items-center gap-1.5">
+          <i class="fa-solid fa-file-signature"></i> Đăng Ký Tư Vấn
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- BANNER MỞ ĐẦU (HERO SECTION) THEO TÔNG MÀU MỚI DAI-ICHI LIFE          -->
+  <!-- ===================================================================== -->
+  <section class="hero-gradient text-white relative overflow-hidden py-12 md:py-20">
+    <!-- Họa tiết trang trí đặc trưng -->
+    <div class="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none">
+      <svg viewBox="0 0 500 500" class="w-full h-full fill-current text-sky-300">
+        <path d="M80,0 C260,150 260,350 80,500 L500,500 L500,0 Z"></path>
+      </svg>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-12 gap-10 items-center relative z-10">
+      <!-- Cột trái: Thông điệp & Kêu gọi hành động -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex flex-wrap items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider text-sky-200">
+          <span class="w-2 h-2 rounded-full bg-sky-400 animate-ping"></span>
+          Cùng Bạn, Mở Tương Lai • Gắn Bó Dài Lâu
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+          Bảo Vệ Tài Chính Vững Vàng &
+          <span class="text-sky-300">Chăm Sóc Sức Khỏe Toàn Cầu</span>
+          Cùng Chuyên Gia Dai-ichi Life
+        </h1>
+
+        <p class="text-sky-100 text-base md:text-lg leading-relaxed max-w-2xl">
+          Xin chào! Tôi là <strong class="text-white">Bùi Thị Thanh Nga</strong> –
+          <strong class="text-sky-300">Phó Phòng Kinh Doanh & Thành viên MDRT</strong> tại
+          Văn phòng <strong class="text-white">GA Bình Thạnh (172 Nguyễn Văn Đậu, P. Gia Định, TP.HCM)</strong>.
+          Với mã số TVTC <strong class="text-sky-300">1167052</strong>, tôi cam kết thiết kế giải pháp bảo hiểm
+          Đúng - Đủ - Minh Bạch và trực tiếp đồng hành hỗ trợ chi trả viện phí 24/7.
+        </p>
+
+        <!-- Cụm nút kết nối bán hàng trực tiếp -->
+        <div class="grid grid-cols-2 sm:flex sm:flex-wrap gap-3 pt-2">
+          <a href="tel:0988190454"
+             class="bg-dl-red hover:bg-red-700 text-white px-5 py-3.5 rounded-xl font-bold text-sm shadow-lg flex items-center justify-center gap-2 transition">
+            <i class="fa-solid fa-phone-volume"></i> Gọi: 0988.190.454
+          </a>
+          <a href="https://zalo.me/0988190454" target="_blank"
+             class="bg-white text-dl-navy hover:bg-sky-50 px-5 py-3.5 rounded-xl font-bold text-sm shadow-lg flex items-center justify-center gap-2 transition">
+            <i class="fa-solid fa-comment-sms text-dl-blue text-lg"></i> Zalo: 0988.190.454
+          </a>
+          <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+             class="bg-sky-500 hover:bg-sky-600 text-white px-5 py-3.5 rounded-xl font-bold text-sm shadow-lg flex items-center justify-center gap-2 transition">
+            <i class="fa-brands fa-facebook-messenger text-lg"></i> Messenger Fanpage
+          </a>
+          <a href="https://t.me/+84988190454" target="_blank"
+             class="bg-white/15 hover:bg-white/25 border border-white/30 text-white px-5 py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition">
+            <i class="fa-brands fa-telegram text-sky-300 text-lg"></i> Tele: 0988.190.454
+          </a>
+        </div>
+
+        <!-- Các chỉ số khẳng định uy tín -->
+        <div class="grid grid-cols-3 gap-4 pt-5 border-t border-white/15">
+          <div>
+            <div class="text-2xl md:text-3xl font-extrabold text-sky-300">MDRT & TOP 3</div>
+            <div class="text-xs text-sky-100 mt-0.5">Tư vấn Tài chính Xuất sắc</div>
+          </div>
+          <div>
+            <div class="text-2xl md:text-3xl font-extrabold text-sky-300">1 Tỷ VNĐ</div>
+            <div class="text-xs text-sky-100 mt-0.5">Quỹ y tế mỗi bệnh/thương tật</div>
+          </div>
+          <div>
+            <div class="text-2xl md:text-3xl font-extrabold text-sky-300">5+ Triệu</div>
+            <div class="text-xs text-sky-100 mt-0.5">Khách hàng tin chọn Dai-ichi</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cột phải: Ảnh chân dung chuyên nghiệp (`avatar.jpg`) -->
+      <div class="lg:col-span-5 flex justify-center">
+        <div class="relative w-full max-w-md">
+          <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/95 bg-white">
+            <img data-candidates="avatar.jpg|1792678032005_8570473983500858962_8570473983500858962_e34676a815cc50b694a9faadccc543b3_2.jpg|1792678032005_8570473983500858962_8570473983500858962_e34676a815cc50b694a9faadccc543b3.jpg"
+                 alt="Bùi Thị Thanh Nga - Phó Phòng Kinh Doanh Dai-ichi Life"
+                 class="smart-img w-full h-[450px] object-cover object-top cursor-pointer"
+                 onclick="openLightbox(this.src, 'Bùi Thị Thanh Nga - Phó Phòng Kinh Doanh Dai-ichi Life Việt Nam')">
+            <div class="bg-white p-4 text-slate-800 flex items-center justify-between border-t">
+              <div>
+                <p class="font-extrabold text-base text-dl-navy">MRS. BÙI THỊ THANH NGA</p>
+                <p class="text-xs font-bold text-dl-blue">Phó Phòng Kinh Doanh • MSTV: 1167052</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">GA Bình Thạnh: 172 Nguyễn Văn Đậu, P. Gia Định</p>
+              </div>
+              <img data-candidates="logo.jpg|logo_2.jpg"
+                   alt="Dai-ichi Life" class="smart-img h-10 w-auto object-contain">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dải màu nhận diện mới của Dai-ichi Life -->
+  <div class="brand-ribbon h-2 w-full"></div>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 1: VỀ DAI-ICHI LIFE VIỆT NAM & ĐỊA CHỈ TRỤ SỞ / VĂN PHÒNG        -->
+  <!-- ===================================================================== -->
+  <section id="gioi-thieu-cong-ty" class="py-16 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <!-- Ảnh bìa nhận diện mới: "Daiichi Life - Cùng bạn, mở tương lai" (`anh bia.jpg`) -->
+      <div class="mb-12 rounded-3xl overflow-hidden shadow-lg border border-slate-100">
+        <img data-candidates="anh bia.jpg|1792677634023_8570473983500858962_8570473983500858962_1f8071dd52f0df3cf00e0d3b10f1a504.jpg"
+             alt="Dai-ichi Life - Cùng bạn, mở tương lai"
+             class="smart-img w-full max-h-[400px] object-cover cursor-pointer"
+             onclick="openLightbox(this.src, 'Dai-ichi Life Việt Nam - Cùng bạn, mở tương lai')">
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        <!-- Thông tin công ty & Địa chỉ chính thức -->
+        <div class="lg:col-span-6 space-y-5">
+          <span class="bg-blue-50 text-dl-blue font-bold px-3.5 py-1.5 rounded-full text-xs uppercase tracking-wider border border-blue-200">
+            Thương hiệu Bảo hiểm Nhân thọ Nhật Bản hàng đầu
+          </span>
+          <h2 class="text-2xl md:text-4xl font-extrabold text-dl-navy leading-tight">
+            Dai-ichi Life Việt Nam <br>
+            <span class="text-dl-blue">"Cùng Bạn, Mở Tương Lai"</span>
+          </h2>
+          <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+            Được thành lập từ năm 1902 tại Nhật Bản, Tập đoàn <strong>Dai-ichi Life</strong> có hơn 120 năm kinh nghiệm và tiềm lực tài chính hàng đầu thế giới. Tại Việt Nam, <strong>Dai-ichi Life Việt Nam</strong> tự hào vượt cột mốc phục vụ hơn <strong>5 triệu khách hàng</strong> với mạng lưới gần 300 văn phòng giao dịch hiện đại trên toàn quốc.
+          </p>
+
+          <!-- Hộp thông tin Trụ sở chính & Văn phòng GA Bình Thạnh -->
+          <div class="space-y-3.5 pt-2">
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-dl-navy text-white flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div>
+                <h3 class="font-extrabold text-sm md:text-base text-dl-navy">
+                  Trụ Sở Chính Công Ty TNHH BHNT Dai-ichi Việt Nam
+                </h3>
+                <p class="text-xs md:text-sm text-slate-600 mt-1">
+                  <strong>Địa chỉ:</strong> Tòa nhà Dai-ichi Life, 149-151 Nguyễn Văn Trỗi, Phường Phú Nhuận, TP. Hồ Chí Minh
+                </p>
+                <p class="text-xs md:text-sm text-dl-blue font-bold mt-1">
+                  <i class="fa-solid fa-phone mr-1"></i>Tổng đài: (028) 3810 0888 | (028) 7308 8880
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-blue-50/70 border-2 border-blue-200 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-dl-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div>
+                <h3 class="font-extrabold text-sm md:text-base text-dl-blue">
+                  Văn Phòng Làm Việc Trực Tiếp Của Chị Thanh Nga
+                </h3>
+                <p class="text-xs md:text-sm text-slate-700 mt-1">
+                  <strong>Địa chỉ:</strong> Văn phòng GA Bình Thạnh – <strong>172 Nguyễn Văn Đậu, P. Gia Định, TP. Hồ Chí Minh</strong> (GA Bình Thạnh 1)
+                </p>
+                <p class="text-xs md:text-sm text-dl-red font-bold mt-1">
+                  <i class="fa-solid fa-headset mr-1"></i>Hotline / Zalo / Telegram trực tiếp: 0988.190.454
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-1 flex flex-wrap gap-4 items-center">
+            <a href="https://daiichilife.com.vn" target="_blank"
+               class="inline-flex items-center gap-2 text-xs md:text-sm font-bold text-dl-blue hover:text-dl-navy underline">
+              Tham khảo trang chủ daiichilife.com.vn
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Ảnh Tòa nhà Trụ sở chính 149-151 Nguyễn Văn Trỗi -->
+        <div class="lg:col-span-6">
+          <div class="rounded-3xl overflow-hidden shadow-xl border-4 border-slate-100 relative group">
+            <img data-candidates="tru so cong ty 149 - 151 nguyen van troi .jpg|tru so cong ty 149 - 151 nguyen van troi _2.jpg"
+                 alt="Tòa nhà Dai-ichi Life 149-151 Nguyễn Văn Trỗi, Phường Phú Nhuận, TP.HCM"
+                 class="smart-img w-full h-[460px] object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Tòa nhà Trụ sở chính Dai-ichi Life Việt Nam: 149-151 Nguyễn Văn Trỗi, P. Phú Nhuận, TP.HCM')">
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 via-slate-900/60 to-transparent p-6 text-white">
+              <p class="font-extrabold text-base">Tòa nhà Dai-ichi Life Việt Nam</p>
+              <p class="text-xs text-sky-200 mt-0.5">
+                149-151 Nguyễn Văn Trỗi, Phường Phú Nhuận, TP. Hồ Chí Minh • ĐT: (028) 3810 0888 | (028) 7308 8880
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 2: HỒ SƠ CHUYÊN GIA & DANH THIẾP ĐIỆN TỬ BÙI THỊ THANH NGA       -->
+  <!-- ===================================================================== -->
+  <section id="ve-thanh-nga" class="py-16 md:py-20 soft-blue-gradient border-t border-blue-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-blue-100 text-dl-blue font-bold px-3.5 py-1 rounded-full text-xs uppercase">
+          Chuyên Gia Tư Vấn Tài Chính Tận Tâm
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold text-dl-navy mt-3">
+          Hồ Sơ Chuyên Gia Bùi Thị Thanh Nga
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm md:text-base">
+          Phó Phòng Kinh Doanh • Thành viên MDRT Quốc Tế • TOP 3 Tư Vấn Tài Chính Xuất Sắc tại Văn phòng GA Bình Thạnh.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <!-- Cột trái: Danh thiếp & Ảnh chân dung thứ 2 -->
+        <div class="lg:col-span-7 grid sm:grid-cols-12 gap-4 items-center">
+          <div class="sm:col-span-7 bg-white p-3.5 rounded-3xl shadow-lg border border-blue-100">
+            <img data-candidates="1792678346742_8570473983500858962_8570473983500858962_d603295835d41fecbc558aa563f41f59.jpg"
+                 alt="Danh thiếp Bùi Thị Thanh Nga"
+                 class="smart-img w-full h-auto rounded-2xl object-contain cursor-pointer"
+                 onclick="openLightbox(this.src, 'Danh thiếp & Mã QR Zalo Bùi Thị Thanh Nga - Phó Phòng Kinh Doanh')">
+            <div class="mt-2.5 text-center text-xs text-slate-600 font-semibold">
+              <i class="fa-solid fa-qrcode text-dl-blue mr-1"></i>Quét mã QR Zalo để kết nối ngay: <strong>0988.190.454</strong>
+            </div>
+          </div>
+
+          <div class="sm:col-span-5 bg-white p-3 rounded-3xl shadow-lg border border-blue-100">
+            <img data-candidates="1792678032082_8570473983500858962_8570473983500858962_a59707bef2fafc32d6de42ca1f5da759.jpg|avatar.jpg"
+                 alt="Chân dung Bùi Thị Thanh Nga"
+                 class="smart-img w-full h-72 object-cover object-top rounded-2xl cursor-pointer"
+                 onclick="openLightbox(this.src, 'Mrs. Bùi Thị Thanh Nga - Phó Phòng Kinh Doanh Dai-ichi Life')">
+            <div class="mt-2.5 text-center">
+              <span class="text-xs font-extrabold text-dl-navy block">BÙI THỊ THANH NGA</span>
+              <span class="text-[11px] text-slate-500">Email: ngathanh0906@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột phải: 3 Cam kết vàng -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 card-hover">
+            <div class="flex items-start gap-3.5">
+              <div class="w-11 h-11 rounded-xl bg-dl-blue text-white flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-base text-dl-navy">1. Thiết Kế Giải Pháp Đúng & Đủ</h3>
+                <p class="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
+                  Phân tích đúng nhu cầu bảo vệ sức khỏe và thu nhập người trụ cột với mức phí hợp lý chỉ từ 10-15% thu nhập gia đình.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 card-hover">
+            <div class="flex items-start gap-3.5">
+              <div class="w-11 h-11 rounded-xl bg-dl-cyan text-white flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-file-shield"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-base text-dl-navy">2. Minh Bạch 100% Điều Khoản</h3>
+                <p class="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
+                  Tư vấn rõ ràng quyền lợi, thời gian chờ và các điều khoản loại trừ trước khi ký hợp đồng để khách hàng hoàn toàn an tâm.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 card-hover">
+            <div class="flex items-start gap-3.5">
+              <div class="w-11 h-11 rounded-xl bg-dl-red text-white flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-hand-holding-medical"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-base text-dl-navy">3. Hỗ Trợ Bồi Thường Nhanh 24/7</h3>
+                <p class="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
+                  Trực tiếp hướng dẫn lấy giấy tờ xuất viện, nộp hồ sơ trên Dai-ichi Connect và theo sát đến khi tiền về tài khoản khách hàng.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 3: BẰNG CHỨNG CÁC CA CHI TRẢ BỒI THƯỜNG THỰC TẾ (6 CA THỰC TẾ)   -->
+  <!-- ===================================================================== -->
+  <section id="bang-chung-chi-tra" class="py-16 md:py-20 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-red-100 text-dl-red font-extrabold px-4 py-1.5 rounded-full text-xs uppercase tracking-wider">
+          <i class="fa-solid fa-bolt mr-1"></i>Minh Chứng Năng Lực Phục Vụ Thực Tế
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold text-dl-navy mt-3">
+          Các Ca Chi Trả Quyền Lợi Bảo Hiểm Nhanh Như Chớp
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm md:text-base">
+          Bấm vào từng hình ảnh để xem chi tiết quyết định chi trả bồi thường thực tế của khách hàng tại Dai-ichi Life Việt Nam.
+        </p>
+      </div>
+
+      <!-- Lưới 6 ca chi trả thực tế -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Ca 1: Chi trả trực tiếp của FC 1167052 Bùi Thị Thanh Nga (`chi tra 5.jpg`) -->
+        <div class="bg-slate-50 rounded-2xl border-2 border-blue-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-dl-blue text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-user-check mr-1"></i>TVTC: Bùi Thị Thanh Nga (1167052)</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">HS: R-26-0229126</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center p-2">
+              <img data-candidates="chi tra 5.jpg"
+                   alt="Chi trả chăm sóc sức khỏe FC Bùi Thị Thanh Nga"
+                   class="smart-img w-full h-full object-contain cursor-pointer"
+                   onclick="openLightbox(this.src, 'Ca chi trả Chăm sóc sức khỏe 9.062.281 VNĐ do TVTC Bùi Thị Thanh Nga trực tiếp phụ trách')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-dl-blue bg-blue-100 px-2.5 py-0.5 rounded">
+                Chăm sóc sức khỏe • Duyệt nhanh
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả Viện Phí: 9.062.281 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Hồ sơ mở ngày 01/10/2026 và chấp nhận chi trả ngày 07/10/2026 do chính chị <strong>Bùi Thị Thanh Nga (FC: 1167052)</strong> hỗ trợ khách hàng.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc" onclick="selectPackage('Thẻ Chăm Sóc Sức Khỏe Toàn Cầu (Nội trú & Ngoại trú)')"
+               class="block text-center text-xs font-bold text-dl-blue bg-blue-50 hover:bg-blue-100 py-2.5 rounded-xl transition">
+              Đăng ký tư vấn thẻ sức khỏe này →
+            </a>
+          </div>
+        </div>
+
+        <!-- Ca 2: Chi trả Ung thư Vú 500 triệu (`chi tra.jpg`) -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-dl-red text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-heart-pulse mr-1"></i>Bệnh Hiểm Nghèo</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">500 Triệu VNĐ</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center p-2">
+              <img data-candidates="chi tra.jpg|1792678357605_8570473983500858962_8570473983500858962_ad1f71f07e9d17ab6fa59b72e02d1873.jpg"
+                   alt="Ca chi trả Ung thư vú 500 triệu đồng"
+                   class="smart-img w-full h-full object-contain cursor-pointer"
+                   onclick="openLightbox(this.src, 'Ca chi trả Ung thư vú nhanh như chớp: 500.000.000 VNĐ')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-red-700 bg-red-100 px-2.5 py-0.5 rounded">
+                Ung thư Vú • Nhanh như chớp
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả: 500.000.000 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Chi trả ngay <strong>500 triệu đồng</strong> quyền lợi bệnh hiểm nghèo giúp khách hàng vững tâm điều trị y tế với phác đồ tốt nhất.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc" onclick="selectPackage('Bảo Vệ Trụ Cột & 88 Bệnh Hiểm Nghèo (An Tâm Song Hành)')"
+               class="block text-center text-xs font-bold text-dl-red bg-red-50 hover:bg-red-100 py-2.5 rounded-xl transition">
+              Tư vấn gói Bệnh hiểm nghèo →
+            </a>
+          </div>
+        </div>
+
+        <!-- Ca 3: Trao quyền lợi 630 triệu tại gia đình (`chi tra 6.jpg`) -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-dl-navy text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-shield-halved mr-1"></i>Bảo Vệ Trụ Cột</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">630 Triệu VNĐ</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center">
+              <img data-candidates="chi tra 6.jpg|1792678357680_8570473983500858962_8570473983500858962_0ad44251f7ee4e40b3bfb8dd0cabfa18.jpg"
+                   alt="Trao quyền lợi bảo hiểm 630 triệu đồng"
+                   class="smart-img w-full h-full object-cover cursor-pointer"
+                   onclick="openLightbox(this.src, 'Lễ trao quyền lợi bảo hiểm 630.000.000 VNĐ tận tay gia đình khách hàng')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-indigo-700 bg-indigo-100 px-2.5 py-0.5 rounded">
+                Trao tận tay gia đình khách hàng
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả: 630.000.000 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Đại diện Dai-ichi Life trực tiếp đến thăm hỏi, sẻ chia và trao quyền lợi <strong>630 triệu đồng</strong> giúp gia đình vượt qua biến cố.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc" onclick="selectPackage('Bảo Vệ Trụ Cột & 88 Bệnh Hiểm Nghèo (An Tâm Song Hành)')"
+               class="block text-center text-xs font-bold text-dl-navy bg-slate-200 hover:bg-slate-300 py-2.5 rounded-xl transition">
+              Thiết kế gói Bảo vệ trụ cột →
+            </a>
+          </div>
+        </div>
+
+        <!-- Ca 4: Chi trả 500 triệu tai nạn tại Trảng Bom, Đồng Nai (`chi tra 7.jpg`) -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-amber-600 text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-hand-holding-dollar mr-1"></i>Quyền Lợi Tai Nạn</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">500 Triệu VNĐ</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center p-2">
+              <img data-candidates="chi tra 7.jpg|1792678357863_8570473983500858962_8570473983500858962_d2246da4d5881cd963ce9939c2ad1a19.jpg"
+                   alt="Chi trả 500 triệu khách hàng tai nạn Đồng Nai"
+                   class="smart-img w-full h-full object-contain cursor-pointer"
+                   onclick="openLightbox(this.src, 'Chi trả quyền lợi 500.000.000 VNĐ cho gia đình khách hàng tại Trảng Bom, Đồng Nai')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-amber-800 bg-amber-100 px-2.5 py-0.5 rounded">
+                Trảng Bom, Đồng Nai
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả: 500.000.000 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Chi trả quyền lợi bảo hiểm rủi ro tai nạn <strong>500 triệu đồng</strong> tại Lộc Hòa, Tây Hòa, Trảng Bom, Đồng Nai.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc"
+               class="block text-center text-xs font-bold text-amber-800 bg-amber-50 hover:bg-amber-100 py-2.5 rounded-xl transition">
+              Nhận bảng minh họa ngay →
+            </a>
+          </div>
+        </div>
+
+        <!-- Ca 5: Chi trả Chăm sóc sức khỏe 49.227.464 VNĐ -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-emerald-600 text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-hospital-user mr-1"></i>Thẻ Sức Khỏe Toàn Cầu</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">HS: R-26-0008805</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center p-2">
+              <img data-candidates="1792678357930_8570473983500858962_8570473983500858962_b2f7b324182c50bbd0390694566a1582.jpg|chi tra 5.jpg"
+                   alt="Chi trả viện phí 49.227.464 VNĐ"
+                   class="smart-img w-full h-full object-contain cursor-pointer"
+                   onclick="openLightbox(this.src, 'Chấp nhận chi trả Chăm sóc sức khỏe 49.227.464 VNĐ chỉ sau 6 ngày')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded">
+                Duyệt chi trả trong 6 ngày
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả Viện Phí: 49.227.464 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Mở hồ sơ ngày 13/01/2026, có kết quả chấp nhận chi trả ngày 19/01/2026 với số tiền gần 50 triệu đồng viện phí.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc"
+               class="block text-center text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 py-2.5 rounded-xl transition">
+              Tư vấn Thẻ chăm sóc sức khỏe →
+            </a>
+          </div>
+        </div>
+
+        <!-- Ca 6: Chi trả An Tâm Song Hành 41.500.000 VNĐ -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm card-hover flex flex-col justify-between">
+          <div>
+            <div class="bg-dl-cyan text-white text-xs font-bold px-4 py-2.5 flex justify-between items-center">
+              <span><i class="fa-solid fa-file-medical mr-1"></i>An Tâm Song Hành</span>
+              <span class="bg-white/20 px-2 py-0.5 rounded">HS: R-25-0284862</span>
+            </div>
+            <div class="h-64 bg-white overflow-hidden border-b flex items-center justify-center p-2">
+              <img data-candidates="1792678357771_8570473983500858962_8570473983500858962_b0adeb95e2dc0658bb3426b553006b2e.jpg|chi tra 5.jpg"
+                   alt="Chi trả An Tâm Song Hành 41.500.000 VNĐ"
+                   class="smart-img w-full h-full object-contain cursor-pointer"
+                   onclick="openLightbox(this.src, 'Chi trả quyền lợi Chăm sóc sức khỏe An Tâm Song Hành: 41.500.000 VNĐ')">
+            </div>
+            <div class="p-5">
+              <span class="text-[11px] font-bold uppercase text-sky-800 bg-sky-100 px-2.5 py-0.5 rounded">
+                Sản phẩm An Tâm Song Hành
+              </span>
+              <h3 class="font-extrabold text-lg text-dl-navy mt-2">
+                Chi Trả Viện Phí: 41.500.000 VNĐ
+              </h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                Thanh toán chi phí điều trị nội trú nhanh chóng qua ứng dụng Dai-ichi Connect cho khách hàng tham gia gói An Tâm Song Hành.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <a href="#form-tu-van-google-doc"
+               class="block text-center text-xs font-bold text-sky-800 bg-sky-50 hover:bg-sky-100 py-2.5 rounded-xl transition">
+              Đăng ký nhận bảng tính phí →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 4: DẤU ẤN VINH DANH MDRT, HỘI TỤ TINH HOA & SỰ KIỆN TRI ÂN       -->
+  <!-- ===================================================================== -->
+  <section id="vinh-danh-su-kien" class="py-16 md:py-20 soft-blue-gradient border-t border-blue-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-amber-100 text-amber-800 font-extrabold px-4 py-1.5 rounded-full text-xs uppercase tracking-wider">
+          <i class="fa-solid fa-crown mr-1"></i>Danh Hiệu Quốc Tế MDRT & Hội Tụ Tinh Hoa
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold text-dl-navy mt-3">
+          Dấu Ấn Vinh Danh & Sự Kiện Tri Ân Khách Hàng
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm md:text-base">
+          Những cột mốc tự hào ghi nhận sự nỗ lực bền bỉ và trái tim nhiệt huyết của chị <strong>Bùi Thị Thanh Nga</strong> tại Dai-ichi Life Việt Nam.
+        </p>
+      </div>
+
+      <!-- Hàng 1: 4 Danh hiệu Vinh danh Nổi bật nhất (MDRT, Bằng khen Top 3 FYP, Thư mời Tinh Hoa, Cúp Bình Thạnh) -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <!-- Ảnh 1: Danh hiệu MDRT 2025 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-80 overflow-hidden bg-slate-900">
+            <img data-candidates="1794143794588_8570473983500858962_8570473983500858962_3151c877fc272b3703708b20c3a7fe73.jpg|1794143794588_8570473983500858962_8570473983500858962_3151c877fc272b3703708b20c3a7fe73_2.jpg"
+                 alt="Danh hiệu MDRT 2025 Bùi Thị Thanh Nga"
+                 class="smart-img gallery-img w-full h-full object-cover object-top cursor-pointer"
+                 onclick="openLightbox(this.src, 'Danh hiệu Quốc tế MDRT 2025 - Bùi Thị Thanh Nga')">
+          </div>
+          <div class="p-4">
+            <span class="text-[11px] font-extrabold text-amber-600 uppercase">★ Danh Hiệu Quốc Tế</span>
+            <h3 class="font-bold text-base text-dl-navy mt-0.5">Thành Viên MDRT 2025</h3>
+            <p class="text-xs text-slate-600 mt-1">Chuẩn mực xuất sắc toàn cầu trong ngành Tư vấn Tài chính & Bảo hiểm Nhân thọ.</p>
+          </div>
+        </div>
+
+        <!-- Ảnh 2: Bằng khen TOP 3 FYP Quý 3 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-80 overflow-hidden bg-slate-900">
+            <img data-candidates="1794143795055_8570473983500858962_8570473983500858962_66bb029c59107197ebcd1766eac4f343.jpg"
+                 alt="Bằng khen TOP 3 FYP Tư Vấn Tài Chính Xuất Sắc Quý 3"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Bằng Khen Hội Tụ Tinh Hoa: TOP 3 FYP - Tư Vấn Tài Chính Xuất Sắc Quý 3')">
+          </div>
+          <div class="p-4">
+            <span class="text-[11px] font-extrabold text-amber-600 uppercase">★ Bảng Vàng Thành Tích</span>
+            <h3 class="font-bold text-base text-dl-navy mt-0.5">Bằng Khen TOP 3 FYP Quý 3</h3>
+            <p class="text-xs text-slate-600 mt-1">Vinh danh Tư Vấn Tài Chính xuất sắc tại Văn phòng TĐL Bình Thạnh 1.</p>
+          </div>
+        </div>
+
+        <!-- Ảnh 3: Lễ Vinh Danh Hội Tụ Tinh Hoa GA7 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-80 overflow-hidden bg-slate-900">
+            <img data-candidates="1794143794906_8570473983500858962_8570473983500858962_ef5b91a01ae1b072f08b3a3ed03b851f.jpg"
+                 alt="Lễ Vinh Danh Hội Tụ Tinh Hoa GA7"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Lễ Vinh Danh Hội Tụ Tinh Hoa GA7 - Chào đón Ms. Bùi Thị Thanh Nga')">
+          </div>
+          <div class="p-4">
+            <span class="text-[11px] font-extrabold text-amber-600 uppercase">★ Hội Tụ Tinh Hoa GA7</span>
+            <h3 class="font-bold text-base text-dl-navy mt-0.5">7 Ngọn Lửa - 1 Khát Vọng</h3>
+            <p class="text-xs text-slate-600 mt-1">Đêm Gala vinh danh những cá nhân kiệt xuất tại Gala Center TP.HCM.</p>
+          </div>
+        </div>
+
+        <!-- Ảnh 4: Vinh danh Văn phòng Tổng Đại lý Bình Thạnh (`thanh tich.jpg`) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-80 overflow-hidden bg-slate-900">
+            <img data-candidates="thanh tich.jpg"
+                 alt="Vinh danh Văn phòng Tổng Đại lý Bình Thạnh"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Vinh danh Ms. Bùi Thị Thanh Nga tại Văn Phòng Tổng Đại Lý Bình Thạnh')">
+          </div>
+          <div class="p-4">
+            <span class="text-[11px] font-extrabold text-amber-600 uppercase">★ Cúp Vinh Danh</span>
+            <h3 class="font-bold text-base text-dl-navy mt-0.5">VP Tổng Đại Lý Bình Thạnh</h3>
+            <p class="text-xs text-slate-600 mt-1">Lan tỏa sứ mệnh bảo vệ tài chính vững chắc cho từng gia đình khách hàng.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hàng 2: Hình ảnh Hội thảo 5 Triệu Khách hàng, Sân khấu Vinh danh & Quà tặng tri ân -->
+      <div class="grid md:grid-cols-3 gap-6 mb-8">
+        <!-- Cột mốc 5 triệu khách hàng -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-64 overflow-hidden bg-slate-100">
+            <img data-candidates="1794143794671_8570473983500858962_8570473983500858962_ccc8254615c5641c024199224df95f06.jpg|1794143794671_8570473983500858962_8570473983500858962_ccc8254615c5641c024199224df95f06_2.jpg"
+                 alt="Hội thảo Tri ân Khách hàng - Cột mốc 5 triệu khách hàng"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Dai-ichi Life Việt Nam tự hào vượt cột mốc phục vụ 5 triệu khách hàng')">
+          </div>
+          <div class="p-5">
+            <span class="text-xs font-bold text-dl-red uppercase">Cột Mốc Tự Hào</span>
+            <h3 class="font-bold text-base text-dl-navy mt-1">Phục Vụ Hơn 5 Triệu Khách Hàng</h3>
+            <p class="text-xs text-slate-600 mt-1">Hội thảo Tri ân Khách hàng "Hơn 5 triệu khách hàng, trọn vẹn một niềm tin".</p>
+          </div>
+        </div>
+
+        <!-- Sân khấu Vinh danh Tư vấn Tài chính GA7 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-64 overflow-hidden bg-slate-100">
+            <img data-candidates="1794143795162_8570473983500858962_8570473983500858962_0900c0fffb69eaecebedd8c7fc671d84.jpg"
+                 alt="Sân khấu Vinh danh Tư vấn Tài chính GA7"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Vinh danh các Tư Vấn Tài Chính xuất sắc trên sân khấu lớn GA7')">
+          </div>
+          <div class="p-5">
+            <span class="text-xs font-bold text-dl-blue uppercase">Tỏa Sáng Trên Sân Khấu</span>
+            <h3 class="font-bold text-base text-dl-navy mt-1">Vinh Danh Tư Vấn Tài Chính Xuất Sắc</h3>
+            <p class="text-xs text-slate-600 mt-1">Chị Bùi Thị Thanh Nga nhận kỷ niệm chương vinh danh cùng các lãnh đạo cấp cao.</p>
+          </div>
+        </div>
+
+        <!-- Đại đội ngũ Dai-ichi Life Gắn bó dài lâu -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200 gallery-card card-hover">
+          <div class="h-64 overflow-hidden bg-slate-100">
+            <img data-candidates="1794143794273_8570473983500858962_8570473983500858962_1b74f5e69ebef64321b87d73abcb1d16.jpg|1794143794273_8570473983500858962_8570473983500858962_1b74f5e69ebef64321b87d73abcb1d16_2.jpg"
+                 alt="Đội ngũ kinh doanh hùng hậu Dai-ichi Life"
+                 class="smart-img gallery-img w-full h-full object-cover cursor-pointer"
+                 onclick="openLightbox(this.src, 'Tập thể đội ngũ chuyên viên tư vấn hùng hậu của Dai-ichi Life Việt Nam')">
+          </div>
+          <div class="p-5">
+            <span class="text-xs font-bold text-dl-red uppercase">Sức Mạnh Tập Thể</span>
+            <h3 class="font-bold text-base text-dl-navy mt-1">Đội Ngũ Chuyên Nghiệp & Tận Tâm</h3>
+            <p class="text-xs text-slate-600 mt-1">Luôn sẵn sàng hỗ trợ khách hàng nhanh chóng tại TP.HCM và các tỉnh lân cận.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hàng 3: Bộ sưu tập Sự kiện Liên Minh BBT & Quà tặng tri ân khách hàng (6 ảnh) -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="phan thuong.jpg"
+               alt="Quà tặng hội thảo khách hàng"
+               class="smart-img gallery-img w-full h-44 object-cover cursor-pointer"
+               onclick="openLightbox(this.src, 'Quà tặng gia dụng cao cấp dành tặng khách hàng tham dự hội thảo')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">Quà Tặng Hội Thảo</div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="phan thuong 2.jpg"
+               alt="Tri ân khách hàng Dai-ichi Life"
+               class="smart-img gallery-img w-full h-44 object-cover cursor-pointer"
+               onclick="openLightbox(this.src, 'Chuẩn bị quà tặng tri ân chu đáo gửi tới từng khách hàng')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">Tri Ân Khách Hàng</div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="1794143794752_8570473983500858962_8570473983500858962_87cc1e507edb530ce90a2211d7032209.jpg"
+               alt="Liên minh Bình Thạnh 1 - Một hành trình vạn yêu thương"
+               class="smart-img gallery-img w-full h-44 object-cover cursor-pointer"
+               onclick="openLightbox(this.src, 'Sự kiện Liên Minh Bình Thạnh 1 - Bình Tân 2 - Tân Phú 2: Một Hành Trình Vạn Yêu Thương')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">Hành Trình Yêu Thương</div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="1794143794173_8570473983500858962_8570473983500858962_5873153effe141598c8d3737c9012df3.jpg|1794143794173_8570473983500858962_8570473983500858962_5873153effe141598c8d3737c9012df3_2.jpg"
+               alt="Câu lạc bộ chiến binh BBT - Vạn Sự Như Ý"
+               class="smart-img gallery-img w-full h-44 object-cover cursor-pointer"
+               onclick="openLightbox(this.src, 'Khai xuân Vạn Sự Như Ý - Câu lạc bộ chiến binh BBT tại Sedona Suites Quận 1')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">CLB Chiến Binh BBT</div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="1794143794385_8570473983500858962_8570473983500858962_a34fa3e3ee0ac1976010ad4504e296df.jpg|1794143794385_8570473983500858962_8570473983500858962_a34fa3e3ee0ac1976010ad4504e296df_2.jpg"
+               alt="Vinh danh BBT Saigon By Night"
+               class="smart-img gallery-img w-full h-44 object-cover object-top cursor-pointer"
+               onclick="openLightbox(this.src, 'Dạ tiệc vinh danh BBT Saigon By Night trên du thuyền Indochina Queen')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">Dạ Tiệc Vinh Danh</div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 gallery-card">
+          <img data-candidates="1794143794486_8570473983500858962_8570473983500858962_907cf89958638ce988b90611b68f0e50.jpg|1794143794486_8570473983500858962_8570473983500858962_907cf89958638ce988b90611b68f0e50_2.jpg"
+               alt="Đội ngũ nữ lãnh đạo trên du thuyền Indochina Queen"
+               class="smart-img gallery-img w-full h-44 object-cover cursor-pointer"
+               onclick="openLightbox(this.src, 'Hội ngộ cùng các đồng đội xuất sắc trên du thuyền Nữ Hoàng Đông Dương')">
+          <div class="p-2.5 text-center text-[11px] font-bold text-dl-navy">Đồng Đội Tinh Hoa</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 5: CÁC GIẢI PHÁP BẢO HIỂM CHỦ LỰC (BÁN HÀNG & CHUYỂN ĐỔI)        -->
+  <!-- ===================================================================== -->
+  <section id="san-pham" class="py-16 md:py-20 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-blue-50 text-dl-blue font-bold px-3.5 py-1 rounded-full text-xs uppercase border border-blue-200">
+          Danh Mục Giải Pháp Bảo Vệ Ưu Việt
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold text-dl-navy mt-3">
+          Chọn Giải Pháp Phù Hợp Cho Gia Đình Bạn
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm md:text-base">
+          Mỗi gói giải pháp đều được chị Thanh Nga thiết kế linh hoạt theo độ tuổi và ngân sách riêng của từng gia đình.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+        <!-- Gói 1: Thẻ Chăm Sóc Sức Khỏe Toàn Cầu -->
+        <div class="rounded-3xl border-2 border-dl-blue bg-white shadow-lg overflow-hidden flex flex-col justify-between card-hover">
+          <div class="bg-dl-blue text-white text-center py-2.5 text-xs font-extrabold uppercase tracking-wider">
+            ★ Giải Pháp Được Yêu Thích Nhất
+          </div>
+          <div class="p-7">
+            <h3 class="font-extrabold text-xl text-dl-navy">
+              Thẻ Chăm Sóc Sức Khỏe Toàn Cầu 24/7
+            </h3>
+            <p class="text-xs text-slate-500 mt-1">
+              Đặc quyền khám chữa bệnh tại các bệnh viện Quốc tế & Tư nhân hàng đầu
+            </p>
+            <div class="my-5 p-4 rounded-2xl bg-blue-50/70 border border-blue-100">
+              <div class="text-xs text-slate-500">Quỹ bảo vệ y tế lên đến</div>
+              <div class="text-2xl font-extrabold text-dl-blue">
+                1.000.000.000 VNĐ <span class="text-xs font-normal text-slate-600">/ bệnh</span>
+              </div>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-700">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Chi trả <strong>100% chi phí y tế thực tế</strong> (Nội trú, Ngoại trú, Nha khoa, Cấp cứu).</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Bảo lãnh viện phí trực tiếp tại <strong>Vinmec, Tâm Anh, FV, Hoàn Mỹ, Gia Định, Nhi Đồng...</strong></span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Bảo vệ điều trị Ung thư, lọc thận, cấy ghép nội tạng chi phí cao.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="p-7 pt-0 space-y-2.5">
+            <a href="#form-tu-van-google-doc"
+               onclick="selectPackage('Thẻ Chăm Sóc Sức Khỏe Toàn Cầu (Nội trú & Ngoại trú)')"
+               class="block text-center w-full bg-dl-blue hover:bg-dl-navy text-white font-bold py-3.5 rounded-xl shadow transition text-sm">
+              <i class="fa-solid fa-calculator mr-1.5"></i>Đăng Ký Nhận Bảng Tính Phí
+            </a>
+            <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+               class="block text-center w-full bg-slate-100 hover:bg-slate-200 text-dl-navy font-semibold py-2.5 rounded-xl text-xs transition">
+              <i class="fa-brands fa-facebook-messenger text-dl-blue mr-1"></i>Nhắn Messenger Fanpage
+            </a>
+          </div>
+        </div>
+
+        <!-- Gói 2: An Tâm Song Hành & 88 Bệnh Hiểm Nghèo -->
+        <div class="rounded-3xl border border-slate-200 bg-white shadow-md overflow-hidden flex flex-col justify-between card-hover">
+          <div class="bg-dl-navy text-white text-center py-2.5 text-xs font-extrabold uppercase tracking-wider">
+            Bảo Vệ Thu Nhập Người Trụ Cột
+          </div>
+          <div class="p-7">
+            <h3 class="font-extrabold text-xl text-dl-navy">
+              An Tâm Song Hành & 88 Bệnh Hiểm Nghèo
+            </h3>
+            <p class="text-xs text-slate-500 mt-1">
+              Lá chắn tài chính vững chắc trước mọi rủi ro tai nạn & bệnh trọng
+            </p>
+            <div class="my-5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="text-xs text-slate-500">Bảo vệ toàn diện</div>
+              <div class="text-2xl font-extrabold text-dl-navy">88 Bệnh Hiểm Nghèo</div>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-700">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-cyan mt-1"></i>
+                <span>Chi trả tiền mặt ngay từ <strong>giai đoạn sớm</strong> để kịp thời điều trị bệnh.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-cyan mt-1"></i>
+                <span>Tặng thêm quyền lợi bảo vệ <strong>Song Hành</strong> cho người thân yêu mà không tăng phí.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-cyan mt-1"></i>
+                <span>Kết hợp tích lũy hưởng lãi suất đầu tư an toàn, linh hoạt rút tiền khi cần.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="p-7 pt-0 space-y-2.5">
+            <a href="#form-tu-van-google-doc"
+               onclick="selectPackage('Bảo Vệ Trụ Cột & 88 Bệnh Hiểm Nghèo (An Tâm Song Hành)')"
+               class="block text-center w-full bg-dl-navy hover:bg-dl-blue text-white font-bold py-3.5 rounded-xl shadow transition text-sm">
+              <i class="fa-solid fa-calculator mr-1.5"></i>Đăng Ký Nhận Bảng Tính Phí
+            </a>
+            <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+               class="block text-center w-full bg-slate-100 hover:bg-slate-200 text-dl-navy font-semibold py-2.5 rounded-xl text-xs transition">
+              <i class="fa-brands fa-facebook-messenger text-dl-blue mr-1"></i>Nhắn Messenger Fanpage
+            </a>
+          </div>
+        </div>
+
+        <!-- Gói 3: Quỹ Học Vấn & Tích Lũy Đầu Tư Cho Con -->
+        <div class="rounded-3xl border border-slate-200 bg-white shadow-md overflow-hidden flex flex-col justify-between card-hover">
+          <div class="bg-dl-cyan text-white text-center py-2.5 text-xs font-extrabold uppercase tracking-wider">
+            Hành Trang Tương Lai Cho Con Yêu
+          </div>
+          <div class="p-7">
+            <h3 class="font-extrabold text-xl text-dl-navy">
+              Quỹ Học Vấn & Tích Lũy Đầu Tư Cho Con
+            </h3>
+            <p class="text-xs text-slate-500 mt-1">
+              Vừa chăm sóc y tế cho bé, vừa kỷ luật tiết kiệm quỹ đại học vững vàng
+            </p>
+            <div class="my-5 p-4 rounded-2xl bg-sky-50 border border-sky-100">
+              <div class="text-xs text-slate-500">Tiết kiệm linh hoạt chỉ từ</div>
+              <div class="text-2xl font-extrabold text-dl-cyan">
+                40.000 VNĐ <span class="text-xs font-normal text-slate-600">/ ngày</span>
+              </div>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-700">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Bảo vệ sức khỏe toàn diện cho bé ngay từ khi tròn <strong>30 ngày tuổi</strong>.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Cam kết đảm bảo quỹ học vấn tương lai của con trong mọi hoàn cảnh.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-dl-blue mt-1"></i>
+                <span>Nhận các khoản thưởng duy trì hợp đồng định kỳ hấp dẫn từ Dai-ichi Life.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="p-7 pt-0 space-y-2.5">
+            <a href="#form-tu-van-google-doc"
+               onclick="selectPackage('Quỹ Học Vấn & Chăm Sóc Y Tế Cho Con')"
+               class="block text-center w-full bg-dl-cyan hover:bg-dl-blue text-white font-bold py-3.5 rounded-xl shadow transition text-sm">
+              <i class="fa-solid fa-calculator mr-1.5"></i>Đăng Ký Nhận Bảng Tính Phí
+            </a>
+            <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+               class="block text-center w-full bg-slate-100 hover:bg-slate-200 text-dl-navy font-semibold py-2.5 rounded-xl text-xs transition">
+              <i class="fa-brands fa-facebook-messenger text-dl-blue mr-1"></i>Nhắn Messenger Fanpage
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PHẦN 6: FORM TƯ VẤN QUA GOOGLE DOC (`ngathanh0906@gmail.com`)          -->
+  <!-- CÓ EMAIL CỦA KHÁCH HÀNG & SỐ ĐIỆN THOẠI CỦA KHÁCH HÀNG                -->
+  <!-- ===================================================================== -->
+  <section id="form-tu-van-google-doc" class="py-16 md:py-20 hero-gradient text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-10 md:p-12 shadow-2xl grid lg:grid-cols-12 gap-10 items-start">
+
+        <!-- Cột trái: Thông tin Văn phòng, Trụ sở & Kênh liên hệ trực tiếp -->
+        <div class="lg:col-span-5 space-y-5">
+          <div>
+            <span class="bg-blue-100 text-dl-blue font-bold px-3.5 py-1 rounded-full text-xs uppercase">
+              Hệ Thống Tiếp Nhận Tư Vấn Trực Tuyến
+            </span>
+            <h3 class="text-2xl md:text-3xl font-extrabold text-dl-navy mt-3">
+              Kết Nối Với Chị Thanh Nga
+            </h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Khi quý khách điền đầy đủ <strong>Email</strong> và <strong>Số điện thoại</strong> vào Form bên cạnh, hệ thống sẽ lập tức gửi phiếu tư vấn tới tài khoản Google Docs <strong class="text-dl-blue">ngathanh0906@gmail.com</strong> và phản hồi bảng minh họa qua Email / Zalo của quý khách.
+            </p>
+          </div>
+
+          <div class="space-y-3 text-sm">
+            <!-- Địa chỉ Văn phòng làm việc GA Bình Thạnh -->
+            <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-blue-50/90 border border-blue-200">
+              <div class="w-11 h-11 rounded-xl bg-dl-blue text-white flex items-center justify-center text-lg shrink-0 mt-0.5">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-500 font-semibold">Văn Phòng Làm Việc Trực Tiếp</div>
+                <div class="font-extrabold text-sm md:text-base text-dl-navy">
+                  GA Bình Thạnh: 172 Nguyễn Văn Đậu, P. Gia Định, TP. HCM
+                </div>
+              </div>
+            </div>
+
+            <!-- Địa chỉ Trụ sở chính Công ty -->
+            <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-11 h-11 rounded-xl bg-dl-navy text-white flex items-center justify-center text-lg shrink-0 mt-0.5">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-500 font-semibold">Trụ Sở Chính Dai-ichi Life Việt Nam</div>
+                <div class="font-bold text-xs md:text-sm text-slate-800">
+                  Tòa nhà Dai-ichi Life, 149-151 Nguyễn Văn Trỗi, P. Phú Nhuận, TP. HCM
+                </div>
+                <div class="text-xs text-dl-blue font-bold mt-0.5">
+                  ĐT: (028) 3810 0888 | (028) 7308 8880
+                </div>
+              </div>
+            </div>
+
+            <!-- Hotline / Zalo / Telegram thống nhất 0988190454 -->
+            <div class="grid grid-cols-2 gap-3">
+              <a href="https://zalo.me/0988190454" target="_blank"
+                 class="flex items-center gap-3 p-3 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-slate-200 transition">
+                <div class="w-10 h-10 rounded-xl bg-dl-blue text-white flex items-center justify-center text-base shrink-0">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div>
+                  <div class="text-[11px] text-slate-500">Zalo / Điện thoại</div>
+                  <div class="font-extrabold text-sm text-dl-navy">0988.190.454</div>
+                </div>
+              </a>
+
+              <a href="https://t.me/+84988190454" target="_blank"
+                 class="flex items-center gap-3 p-3 rounded-2xl bg-slate-50 hover:bg-sky-50 border border-slate-200 transition">
+                <div class="w-10 h-10 rounded-xl bg-sky-500 text-white flex items-center justify-center text-lg shrink-0">
+                  <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div>
+                  <div class="text-[11px] text-slate-500">Telegram</div>
+                  <div class="font-extrabold text-sm text-sky-600">0988.190.454</div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Messenger Fanpage & Email Google Doc -->
+            <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+               class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-slate-50 hover:bg-indigo-50 border border-slate-200 transition">
+              <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white flex items-center justify-center text-lg shrink-0">
+                <i class="fa-brands fa-facebook-messenger"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-500">Messenger Fanpage Chính Thức</div>
+                <div class="font-extrabold text-xs md:text-sm text-dl-blue break-all">
+                  https://www.facebook.com/share/1GLvY9SdFr/
+                </div>
+              </div>
+            </a>
+
+            <a href="mailto:ngathanh0906@gmail.com"
+               class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-slate-50 hover:bg-red-50 border border-slate-200 transition">
+              <div class="w-10 h-10 rounded-xl bg-dl-red text-white flex items-center justify-center text-base shrink-0">
+                <i class="fa-solid fa-file-word"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-500">Email Google Doc Nhận Phiếu Tư Vấn</div>
+                <div class="font-extrabold text-sm text-dl-navy">ngathanh0906@gmail.com</div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Nút mở cài đặt nhúng Google Doc / Biểu mẫu -->
+          <div class="pt-1">
+            <button type="button" onclick="toggleAdminBox()"
+                    class="text-xs text-slate-400 hover:text-dl-blue flex items-center gap-1.5">
+              <i class="fa-solid fa-gear"></i>
+              Cài đặt liên kết Google Doc / Biểu mẫu (Quản trị viên)
+            </button>
+          </div>
+        </div>
+
+        <!-- Cột phải: FORM TƯ VẤN QUA GOOGLE DOC (`ngathanh0906@gmail.com`) -->
+        <div class="lg:col-span-7 bg-slate-50 p-6 md:p-8 rounded-2xl border-2 border-blue-100">
+          <div class="flex flex-wrap items-center justify-between gap-2 pb-4 mb-5 border-b border-slate-200">
+            <div class="flex items-center gap-2.5">
+              <div class="w-10 h-10 rounded-xl bg-dl-blue text-white flex items-center justify-center text-lg">
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-base md:text-lg text-dl-navy leading-tight">
+                  PHIẾU ĐĂNG KÝ TƯ VẤN & NHẬN BẢNG MINH HỌA
+                </h4>
+                <p class="text-xs text-slate-500">
+                  Đồng bộ trực tiếp về Google Doc: <strong class="text-dl-blue">ngathanh0906@gmail.com</strong>
+                </p>
+              </div>
+            </div>
+            <span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">
+              <i class="fa-solid fa-lock mr-1"></i>Bảo mật thông tin
+            </span>
+          </div>
+
+          <!-- Hộp cấu hình nhúng Google Doc / Form dành cho Quản trị viên -->
+          <div id="adminConfigBox" class="hidden mb-5 p-4 rounded-xl bg-amber-50 border border-amber-300 text-xs space-y-2.5">
+            <div class="font-bold text-amber-900 flex justify-between items-center">
+              <span><i class="fa-solid fa-wrench mr-1"></i>Nhúng link Google Biểu mẫu / Google Doc (ngathanh0906@gmail.com)</span>
+              <button type="button" onclick="toggleAdminBox()" class="text-amber-700 font-bold">✕ Đóng</button>
+            </div>
+            <p class="text-amber-800 leading-relaxed">
+              Nếu bạn có thêm link Google Form tạo từ tài khoản <strong>ngathanh0906@gmail.com</strong>, dán vào đây để hiển thị song song:
+            </p>
+            <div class="flex gap-2">
+              <input id="customGoogleDocUrl" type="url"
+                     placeholder="Dán link https://docs.google.com/forms/..."
+                     class="flex-1 px-3 py-2 rounded-lg border border-amber-300 bg-white text-slate-800">
+              <button type="button" onclick="saveGoogleDocUrl()"
+                      class="bg-dl-blue text-white font-bold px-4 py-2 rounded-lg">
+                Lưu Link
+              </button>
+              <button type="button" onclick="clearGoogleDocUrl()"
+                      class="bg-white border border-red-300 text-red-600 font-bold px-3 py-2 rounded-lg">
+                Xóa
+              </button>
+            </div>
+          </div>
+
+          <!-- Khung nhúng Google Form (nếu có) -->
+          <div id="embeddedGoogleFormContainer" class="hidden mb-5">
+            <iframe id="googleFormIframe" src="" width="100%" height="480"
+                    frameborder="0" marginheight="0" marginwidth="0"
+                    class="rounded-xl border bg-white">Đang tải biểu mẫu...</iframe>
+          </div>
+
+          <!-- FORM CHÍNH: CÓ HỌ TÊN, SĐT KHÁCH HÀNG, EMAIL KHÁCH HÀNG -->
+          <form id="googleDocLeadForm"
+                action="https://formsubmit.co/ngathanh0906@gmail.com"
+                method="POST"
+                onsubmit="handleGoogleDocSubmit(event)"
+                class="space-y-4">
+
+            <input type="hidden" name="_subject" value="[Website Thanh Nga Dai-ichi] Khách hàng đăng ký tư vấn mới!">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Hàng 1: Họ tên & Số điện thoại của khách hàng -->
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  1. Họ và tên Khách hàng <span class="text-dl-red">*</span>
+                </label>
+                <div class="relative">
+                  <i class="fa-solid fa-user text-slate-400 absolute left-3.5 top-3.5 text-sm"></i>
+                  <input id="gdName" name="Ho_va_Ten_Khach_Hang" type="text" required
+                         placeholder="Nhập họ và tên của bạn..."
+                         class="w-full pl-9 pr-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  2. Số điện thoại / Zalo của bạn <span class="text-dl-red">*</span>
+                </label>
+                <div class="relative">
+                  <i class="fa-solid fa-phone text-slate-400 absolute left-3.5 top-3.5 text-sm"></i>
+                  <input id="gdPhone" name="So_Dien_Thoai_Khach_Hang" type="tel" required
+                         placeholder="Ví dụ: 0909xxxxxx"
+                         class="w-full pl-9 pr-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                </div>
+              </div>
+            </div>
+
+            <!-- Hàng 2: Địa chỉ Email của khách hàng & Năm sinh -->
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  3. Địa chỉ Email của bạn <span class="text-dl-red">*</span>
+                </label>
+                <div class="relative">
+                  <i class="fa-solid fa-envelope text-slate-400 absolute left-3.5 top-3.5 text-sm"></i>
+                  <input id="gdEmail" name="email" type="email" required
+                         placeholder="Ví dụ: khachhang@gmail.com"
+                         class="w-full pl-9 pr-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                </div>
+                <span class="text-[11px] text-slate-500 mt-0.5 block">
+                  Để chị Thanh Nga gửi Bảng minh họa PDF & tài liệu quyền lợi qua Email cho bạn.
+                </span>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  4. Năm sinh người được bảo vệ
+                </label>
+                <div class="relative">
+                  <i class="fa-solid fa-cake-candles text-slate-400 absolute left-3.5 top-3.5 text-sm"></i>
+                  <input id="gdBirth" name="Nam_Sinh_Nguoi_Tham_Gia" type="text"
+                         placeholder="VD: Mẹ 1990, Bé 2022..."
+                         class="w-full pl-9 pr-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                </div>
+              </div>
+            </div>
+
+            <!-- Hàng 3: Gói giải pháp & Ngân sách dự kiến -->
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  5. Giải pháp bạn đang quan tâm <span class="text-dl-red">*</span>
+                </label>
+                <select id="gdPackage" name="Goi_Bao_Hiem_Quan_Tam"
+                        class="w-full px-3.5 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                  <option value="Thẻ Chăm Sóc Sức Khỏe Toàn Cầu (Nội trú & Ngoại trú)">
+                    Thẻ Chăm Sóc Sức Khỏe Toàn Cầu (Nội trú & Ngoại trú)
+                  </option>
+                  <option value="Bảo Vệ Trụ Cột & 88 Bệnh Hiểm Nghèo (An Tâm Song Hành)">
+                    Bảo Vệ Trụ Cột & 88 Bệnh Hiểm Nghèo (An Tâm Song Hành)
+                  </option>
+                  <option value="Quỹ Học Vấn & Chăm Sóc Y Tế Cho Con">
+                    Quỹ Học Vấn & Chăm Sóc Y Tế Cho Con
+                  </option>
+                  <option value="Hỗ trợ thủ tục Bồi thường (Claim) / Rà soát hợp đồng">
+                    Hỗ trợ thủ tục Bồi thường (Claim) / Rà soát hợp đồng
+                  </option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  6. Ngân sách tiết kiệm dự kiến
+                </label>
+                <select id="gdBudget" name="Ngan_Sach_Du_Kien"
+                        class="w-full px-3.5 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white">
+                  <option value="Khoảng 1 - 1,5 triệu/tháng (~12-18 triệu/năm)">
+                    Khoảng 1 - 1,5 triệu/tháng (~12-18 triệu/năm)
+                  </option>
+                  <option value="Khoảng 1,5 - 2,5 triệu/tháng (~20-30 triệu/năm)">
+                    Khoảng 1,5 - 2,5 triệu/tháng (~20-30 triệu/năm)
+                  </option>
+                  <option value="Trên 3 triệu/tháng (Gói bảo vệ toàn diện cả gia đình)">
+                    Trên 3 triệu/tháng (Gói toàn diện cả gia đình)
+                  </option>
+                  <option value="Nhờ chị Thanh Nga tư vấn mức phí tối ưu nhất">
+                    Nhờ chị Thanh Nga tư vấn mức phí tối ưu nhất
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Hàng 4: Tin nhắn / Ghi chú chi tiết của khách hàng -->
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                7. Nội dung nhắn tin / Yêu cầu tư vấn chi tiết
+              </label>
+              <textarea id="gdNote" name="Tin_Nhan_Cua_Khach_Hang" rows="2"
+                        placeholder="Ví dụ: Tư vấn giúp mình thẻ bảo lãnh viện phí tại BV Hoàn Mỹ / Tâm Anh và gửi bảng minh họa qua email..."
+                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white"></textarea>
+            </div>
+
+            <!-- Hộp thông báo trạng thái sau khi gửi -->
+            <div id="submitStatusBox"
+                 class="hidden p-4 rounded-xl bg-emerald-50 border border-emerald-300 text-xs text-emerald-900 space-y-2.5">
+              <div class="font-extrabold text-sm text-emerald-800 flex items-center gap-1.5">
+                <i class="fa-solid fa-circle-check text-base"></i>
+                <span>Đã ghi nhận Phiếu Đăng Ký Tư Vấn gửi tới ngathanh0906@gmail.com!</span>
+              </div>
+              <p id="submitStatusText" class="leading-relaxed"></p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <a id="mailtoFallbackBtn" href="#"
+                   class="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-3.5 py-2 rounded-lg transition">
+                  <i class="fa-solid fa-envelope mr-1"></i>Mở Gmail Gửi Trực Tiếp
+                </a>
+                <button type="button" onclick="downloadAsGoogleDoc()"
+                        class="bg-white border border-emerald-600 text-emerald-800 font-bold px-3.5 py-2 rounded-lg transition">
+                  <i class="fa-solid fa-file-word mr-1"></i>Tải Bản Google Doc (.doc)
+                </button>
+                <a href="https://zalo.me/0988190454" target="_blank"
+                   class="bg-dl-blue text-white font-bold px-3.5 py-2 rounded-lg transition">
+                  <i class="fa-solid fa-comment-dots mr-1"></i>Chat Zalo 0988.190.454
+                </a>
+              </div>
+            </div>
+
+            <!-- Nút bấm Gửi Form & Xuất file Google Doc -->
+            <div class="grid sm:grid-cols-2 gap-3 pt-1">
+              <button id="submitBtn" type="submit"
+                      class="w-full bg-dl-blue hover:bg-dl-navy text-white font-extrabold py-3.5 px-4 rounded-xl shadow-lg transition text-sm flex items-center justify-center gap-2">
+                <i class="fa-solid fa-paper-plane"></i>
+                Gửi Đăng Ký Tới ngathanh0906@gmail.com
+              </button>
+              <button type="button" onclick="downloadAsGoogleDoc()"
+                      class="w-full bg-white hover:bg-blue-50 text-dl-blue border-2 border-dl-blue font-extrabold py-3.5 px-4 rounded-xl transition text-sm flex items-center justify-center gap-2">
+                <i class="fa-solid fa-file-word"></i>
+                Xuất Phiếu Google Doc (.doc) & Zalo
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- CHÂN TRANG (FOOTER) CHUẨN THÔNG TIN CÔNG TY & VĂN PHÒNG GA BÌNH THẠNH -->
+  <!-- ===================================================================== -->
+  <footer class="bg-slate-950 text-slate-400 py-12 text-xs border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-12 gap-8">
+      <!-- Cột 1: Thông tin Chuyên gia -->
+      <div class="md:col-span-5 space-y-3">
+        <div class="flex items-center gap-3">
+          <img data-candidates="logo.jpg|logo_2.jpg"
+               alt="Dai-ichi Life" class="smart-img h-11 w-auto rounded-lg bg-white p-1">
+          <div>
+            <p class="font-extrabold text-white text-sm md:text-base">BÙI THỊ THANH NGA</p>
+            <p class="text-sky-400 font-semibold">Phó Phòng Kinh Doanh • Thành Viên MDRT • MSTV: 1167052</p>
+          </div>
+        </div>
+        <p class="text-slate-400 leading-relaxed">
+          Chuyên tư vấn, thiết kế giải pháp Bảo hiểm Nhân thọ & Thẻ Chăm sóc sức khỏe Toàn cầu Dai-ichi Life Việt Nam. Hỗ trợ thủ tục bảo lãnh và chi trả viện phí tận tâm 24/7.
+        </p>
+      </div>
+
+      <!-- Cột 2: Địa chỉ Công ty & Văn phòng làm việc -->
+      <div class="md:col-span-4 space-y-2">
+        <p class="font-bold text-white uppercase tracking-wider text-xs mb-2">Hệ Thống Địa Chỉ Liên Hệ</p>
+        <p>
+          <i class="fa-solid fa-briefcase text-sky-400 mr-1.5"></i>
+          <strong>Văn phòng làm việc:</strong> GA Bình Thạnh – 172 Nguyễn Văn Đậu, P. Gia Định, TP. Hồ Chí Minh
+        </p>
+        <p>
+          <i class="fa-solid fa-building-columns text-sky-400 mr-1.5"></i>
+          <strong>Trụ sở chính công ty:</strong> Tòa nhà Dai-ichi Life, 149-151 Nguyễn Văn Trỗi, Phường Phú Nhuận, TP. Hồ Chí Minh
+        </p>
+        <p>
+          <i class="fa-solid fa-phone text-sky-400 mr-1.5"></i>
+          <strong>Tổng đài công ty:</strong> (028) 3810 0888 | (028) 7308 8880
+        </p>
+      </div>
+
+      <!-- Cột 3: Kết nối trực tiếp -->
+      <div class="md:col-span-3 space-y-2">
+        <p class="font-bold text-white uppercase tracking-wider text-xs mb-2">Kết Nối Trực Tiếp 24/7</p>
+        <p><i class="fa-solid fa-phone-volume text-sky-400 mr-1.5"></i>Điện thoại / Zalo: <a href="tel:0988190454" class="text-white font-bold">0988.190.454</a></p>
+        <p><i class="fa-brands fa-telegram text-sky-400 mr-1.5"></i>Telegram: <a href="https://t.me/+84988190454" target="_blank" class="text-white font-bold">0988.190.454</a></p>
+        <p><i class="fa-solid fa-envelope text-sky-400 mr-1.5"></i>Email: <a href="mailto:ngathanh0906@gmail.com" class="text-sky-400 font-bold">ngathanh0906@gmail.com</a></p>
+        <p><i class="fa-brands fa-facebook-messenger text-sky-400 mr-1.5"></i>Messenger: <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank" class="text-sky-400 underline">Fanpage Thanh Nga</a></p>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 mt-8 pt-6 border-t border-slate-800/80 text-center text-slate-500">
+      © 2026 Bản quyền thuộc về Bùi Thị Thanh Nga - Dai-ichi Life Việt Nam ("Cùng bạn, mở tương lai - Gắn bó dài lâu").
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- CỤM 4 NÚT NỔI GÓC PHẢI MÀN HÌNH (MESSENGER, TELEGRAM, ZALO, GỌI)      -->
+  <!-- ===================================================================== -->
+  <div class="fixed bottom-5 right-4 flex flex-col space-y-3 z-40">
+    <a href="https://www.facebook.com/share/1GLvY9SdFr/" target="_blank"
+       title="Nhắn tin Messenger Fanpage"
+       class="bg-gradient-to-tr from-blue-600 to-sky-400 hover:scale-110 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl transition border-2 border-white">
+      <i class="fa-brands fa-facebook-messenger"></i>
+    </a>
+    <a href="https://t.me/+84988190454" target="_blank"
+       title="Nhắn Telegram: 0988.190.454"
+       class="bg-sky-500 hover:scale-110 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl transition border-2 border-white">
+      <i class="fa-brands fa-telegram"></i>
+    </a>
+    <a href="https://zalo.me/0988190454" target="_blank"
+       title="Chat Zalo: 0988.190.454"
+       class="bg-dl-blue hover:scale-110 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl transition border-2 border-white">
+      <i class="fa-solid fa-comment-dots"></i>
+    </a>
+    <a href="tel:0988190454"
+       title="Gọi ngay: 0988.190.454"
+       class="bg-dl-red hover:scale-110 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl animate-bounce border-2 border-white">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- LIGHTBOX XEM ẢNH PHÓNG TO & HỘP THÔNG BÁO THÔNG MINH                  -->
+  <!-- ===================================================================== -->
+  <div id="lightboxModal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-sm z-50 hidden items-center justify-center p-4" onclick="closeLightbox()">
+    <div class="max-w-4xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+      <div class="flex justify-between items-center px-5 py-3 bg-dl-navy text-white">
+        <span id="lightboxCaption" class="font-bold text-xs md:text-sm truncate pr-4">Hình ảnh thực tế</span>
+        <button type="button" onclick="closeLightbox()" class="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center font-bold">✕</button>
+      </div>
+      <div class="p-3 bg-slate-900 flex items-center justify-center max-h-[80vh]">
+        <img id="lightboxImg" src="" alt="Preview" class="max-h-[75vh] w-auto object-contain rounded-xl">
+      </div>
+    </div>
+  </div>
+
+  <div id="toastModal" class="fixed top-5 right-5 z-50 hidden max-w-sm bg-dl-navy text-white px-5 py-4 rounded-2xl shadow-2xl border border-sky-400/40">
+    <div class="flex items-start gap-3">
+      <i class="fa-solid fa-circle-check text-sky-400 text-xl mt-0.5"></i>
+      <div class="flex-1">
+        <h5 id="toastTitle" class="font-extrabold text-sm">Thông báo hệ thống</h5>
+        <p id="toastMessage" class="text-xs text-sky-100 mt-1 leading-relaxed"></p>
+      </div>
+      <button type="button" onclick="hideToast()" class="text-sky-200 hover:text-white font-bold">✕</button>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT: TỰ ĐỘNG DÒ ẢNH THƯ MỤC D:\MY DOC\NGA\Website & GỬI FORM   -->
+  <!-- ===================================================================== -->
+  <script>
+    const TARGET_EMAIL = "ngathanh0906@gmail.com";
+    const LOCAL_FOLDER_PATH = "file:///D:/MY%20DOC/NGA/Website/";
+    const STORAGE_GDOC_KEY = "thanhnga_gdoc_form_url_v3";
+
+    // Hệ thống thông báo UI thay thế hoàn toàn alert()
+    function showToast(title, message) {
+      const toast = document.getElementById('toastModal');
+      document.getElementById('toastTitle').innerText = title;
+      document.getElementById('toastMessage').innerText = message;
+      toast.classList.remove('hidden');
+      setTimeout(() => { toast.classList.add('hidden'); }, 5500);
+    }
+    function hideToast() {
+      document.getElementById('toastModal').classList.add('hidden');
+    }
+
+    // Hệ thống Lightbox phóng to ảnh khi khách bấm xem
+    function openLightbox(src, caption) {
+      const modal = document.getElementById('lightboxModal');
+      document.getElementById('lightboxImg').src = src;
+      document.getElementById('lightboxCaption').innerText = caption || "Dai-ichi Life Việt Nam - Bùi Thị Thanh Nga";
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // Hệ thống tự động dò tìm file ảnh trong thư mục hiện tại và D:\MY DOC\NGA\Website
+    function initSmartImages() {
+      const imgs = document.querySelectorAll('img.smart-img');
+      imgs.forEach(img => {
+        const rawCandidates = (img.getAttribute('data-candidates') || '').split('|').filter(Boolean);
+        const tryQueue = [];
+
+        // 1. Ưu tiên tìm trong cùng thư mục chứa file HTML
+        rawCandidates.forEach(name => tryQueue.push(name));
+        // 2. Dự phòng trỏ thẳng về đường dẫn D:\MY DOC\NGA\Website\
+        rawCandidates.forEach(name => tryQueue.push(LOCAL_FOLDER_PATH + encodeURIComponent(name).replace(/%20/g, ' ')));
+        rawCandidates.forEach(name => tryQueue.push(LOCAL_FOLDER_PATH + encodeURIComponent(name)));
+
+        let idx = 0;
+        function tryNext() {
+          if (idx < tryQueue.length) {
+            img.src = tryQueue[idx++];
+          } else {
+            img.onerror = null;
+            img.src = "https://placehold.co/600x450/0047BB/FFFFFF?text=Dai-ichi+Life+Thanh+Nga";
+          }
+        }
+        img.onerror = tryNext;
+        tryNext();
+      });
+    }
+
+    function selectPackage(pkgName) {
+      const sel = document.getElementById('gdPackage');
+      if (sel) sel.value = pkgName;
+    }
+
+    function toggleAdminBox() {
+      document.getElementById('adminConfigBox').classList.toggle('hidden');
+    }
+
+    function applySavedGoogleDocUrl() {
+      const savedUrl = localStorage.getItem(STORAGE_GDOC_KEY);
+      const iframeBox = document.getElementById('embeddedGoogleFormContainer');
+      const iframe = document.getElementById('googleFormIframe');
+      const input = document.getElementById('customGoogleDocUrl');
+
+      if (savedUrl && savedUrl.trim() !== "") {
+        input.value = savedUrl;
+        iframe.src = savedUrl;
+        iframeBox.classList.remove('hidden');
+      } else {
+        iframeBox.classList.add('hidden');
+      }
+    }
+
+    function saveGoogleDocUrl() {
+      const url = document.getElementById('customGoogleDocUrl').value.trim();
+      if (!url) {
+        showToast("Chưa nhập liên kết", "Vui lòng dán đường dẫn Google Form hoặc Google Doc vào ô!");
+        return;
+      }
+      localStorage.setItem(STORAGE_GDOC_KEY, url);
+      applySavedGoogleDocUrl();
+      showToast("Đã lưu liên kết", "Biểu mẫu Google Docs đã được nhúng trực tiếp vào trang web!");
+    }
+
+    function clearGoogleDocUrl() {
+      localStorage.removeItem(STORAGE_GDOC_KEY);
+      document.getElementById('customGoogleDocUrl').value = "";
+      applySavedGoogleDocUrl();
+      showToast("Đã khôi phục mặc định", "Đang sử dụng biểu mẫu trực tiếp trên website.");
+    }
+
+    function copyTextSafe(text) {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      } catch (err) {}
+    }
+
+    function getFormDataObject() {
+      return {
+        name: document.getElementById('gdName').value.trim() || "Khách hàng",
+        phone: document.getElementById('gdPhone').value.trim() || "Chưa nhập",
+        email: document.getElementById('gdEmail').value.trim() || "Chưa nhập",
+        birth: document.getElementById('gdBirth').value.trim() || "Chưa nhập",
+        budget: document.getElementById('gdBudget').value,
+        pkg: document.getElementById('gdPackage').value,
+        note: document.getElementById('gdNote').value.trim() || "Không có ghi chú thêm",
+        time: new Date().toLocaleString('vi-VN')
+      };
+    }
+
+    // Xử lý gửi phiếu tư vấn có Email khách hàng & SĐT khách hàng về ngathanh0906@gmail.com
+    function handleGoogleDocSubmit(e) {
+      e.preventDefault();
+      const d = getFormDataObject();
+      const btn = document.getElementById('submitBtn');
+      const statusBox = document.getElementById('submitStatusBox');
+      const statusText = document.getElementById('submitStatusText');
+      const mailtoBtn = document.getElementById('mailtoFallbackBtn');
+
+      const summaryText =
+        `PHIẾU ĐĂNG KÝ TƯ VẤN BẢO HIỂM DAI-ICHI LIFE VIỆT NAM\n` +
+        `====================================================\n` +
+        `• Người tiếp nhận: Bùi Thị Thanh Nga (${TARGET_EMAIL})\n` +
+        `• Họ và tên khách hàng: ${d.name}\n` +
+        `• Số điện thoại / Zalo khách hàng: ${d.phone}\n` +
+        `• Địa chỉ Email khách hàng: ${d.email}\n` +
+        `• Năm sinh người được bảo vệ: ${d.birth}\n` +
+        `• Giải pháp quan tâm: ${d.pkg}\n` +
+        `• Ngân sách dự kiến: ${d.budget}\n` +
+        `• Nội dung nhắn tin: ${d.note}\n` +
+        `• Thời gian đăng ký: ${d.time}`;
+
+      copyTextSafe(summaryText);
+
+      const mailSubject = encodeURIComponent(`[Đăng ký Tư vấn Dai-ichi] KH: ${d.name} - SĐT: ${d.phone}`);
+      const mailBody = encodeURIComponent(summaryText);
+      mailtoBtn.href = `mailto:${TARGET_EMAIL}?cc=${encodeURIComponent(d.email)}&subject=${mailSubject}&body=${mailBody}`;
+
+      btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Đang gửi tới ${TARGET_EMAIL}...`;
+      btn.disabled = true;
+
+      fetch(`https://formsubmit.co/ajax/${TARGET_EMAIL}`, {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: `[Tư vấn Dai-ichi Life] Khách hàng: ${d.name} - SĐT: ${d.phone}`,
+          _replyto: d.email,
+          Ho_va_Ten_Khach_Hang: d.name,
+          So_Dien_Thoai_Khach_Hang: d.phone,
+          Email_Khach_Hang: d.email,
+          Nam_Sinh_Nguoi_Tham_Gia: d.birth,
+          Goi_Bao_Hiem_Quan_Tam: d.pkg,
+          Ngan_Sach_Du_Kien: d.budget,
+          Tin_Nhan_Chi_Tiet: d.note,
+          Thoi_Gian_Dang_Ky: d.time
+        })
+      })
+      .then(res => res.json())
+      .then(() => {
+        statusBox.classList.remove('hidden');
+        statusText.innerText =
+          `Cảm ơn ${d.name}! Thông tin đăng ký (SĐT: ${d.phone} | Email: ${d.email}) đã được gửi tới hộp thư ${TARGET_EMAIL}. Chị Thanh Nga sẽ phản hồi bảng minh họa sớm nhất!`;
+        btn.innerHTML = `<i class="fa-solid fa-check"></i> Đã Gửi Tới ${TARGET_EMAIL}`;
+        btn.disabled = false;
+        showToast("Gửi đăng ký thành công!", `Đã chuyển phiếu tư vấn của ${d.name} tới ${TARGET_EMAIL}.`);
+      })
+      .catch(() => {
+        statusBox.classList.remove('hidden');
+        statusText.innerText =
+          `Phiếu tư vấn của ${d.name} (SĐT: ${d.phone} | Email: ${d.email}) đã sẵn sàng! Bạn có thể bấm nút "Mở Gmail Gửi Trực Tiếp" hoặc "Tải Bản Google Doc (.doc)" bên dưới.`;
+        btn.innerHTML = `<i class="fa-solid fa-paper-plane"></i> Gửi Đăng Ký Tới ${TARGET_EMAIL}`;
+        btn.disabled = false;
+        window.location.href = mailtoBtn.href;
+      });
+    }
+
+    // Xuất trực tiếp thành file tài liệu Google Docs (.doc) có đầy đủ SĐT & Email khách hàng
+    function downloadAsGoogleDoc() {
+      const d = getFormDataObject();
+      const docHtml = `
+        <html xmlns:o='urn:schemas-microsoft-com:office:office'
+              xmlns:w='urn:schemas-microsoft-com:office:word'
+              xmlns='http://www.w3.org/TR/REC-html40'>
+        <head><meta charset='utf-8'><title>Phiếu Tư Vấn Dai-ichi Life</title></head>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #0f172a;">
+          <h2 style="color: #0047BB; margin-bottom: 4px;">
+            PHIẾU ĐĂNG KÝ TƯ VẤN BẢO HIỂM DAI-ICHI LIFE VIỆT NAM
+          </h2>
+          <p style="font-size: 12px; color: #334155; margin-top: 0;">
+            Chuyên viên tiếp nhận: <strong>Bùi Thị Thanh Nga</strong> (Phó Phòng Kinh Doanh - MDRT - MSTV: 1167052)<br>
+            Văn phòng làm việc: <strong>GA Bình Thạnh - 172 Nguyễn Văn Đậu, P. Gia Định, TP.HCM</strong><br>
+            Trụ sở chính: <strong>Tòa nhà Dai-ichi Life, 149-151 Nguyễn Văn Trỗi, P. Phú Nhuận, TP.HCM</strong><br>
+            Email Google Docs: <strong>ngathanh0906@gmail.com</strong> | Hotline/Zalo/Telegram: <strong>0988.190.454</strong>
+          </p>
+          <hr style="border: 1px solid #cbd5e1;">
+          <table border="1" cellpadding="8" cellspacing="0"
+                 style="border-collapse: collapse; width: 100%; font-size: 13px;">
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold; width:35%;">1. Họ và tên khách hàng</td>
+              <td><strong>${d.name}</strong></td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">2. Số điện thoại / Zalo khách hàng</td>
+              <td><strong style="color:#D71920;">${d.phone}</strong></td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">3. Địa chỉ Email khách hàng</td>
+              <td><strong style="color:#0047BB;">${d.email}</strong></td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">4. Năm sinh người được bảo vệ</td>
+              <td>${d.birth}</td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">5. Giải pháp bảo hiểm quan tâm</td>
+              <td><strong>${d.pkg}</strong></td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">6. Ngân sách tiết kiệm dự kiến</td>
+              <td>${d.budget}</td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">7. Nội dung nhắn tin của khách hàng</td>
+              <td>${d.note}</td>
+            </tr>
+            <tr>
+              <td style="background:#EBF5FF; font-weight:bold;">8. Thời gian lập phiếu</td>
+              <td>${d.time}</td>
+            </tr>
+          </table>
+        </body></html>`;
+
+      const blob = new Blob(['\ufeff', docHtml], { type: 'application/msword' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `Phieu_Tu_Van_Daiichi_${d.name.replace(/\s+/g, '_')}.doc`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast("Đã tải file Google Doc (.doc)", "Phiếu tư vấn đã được lưu về máy tính của bạn.");
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initSmartImages();
+      applySavedGoogleDocUrl();
+    });
+  </script>
+</body>
+</html>
